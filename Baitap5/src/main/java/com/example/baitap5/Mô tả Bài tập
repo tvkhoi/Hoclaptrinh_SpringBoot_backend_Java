@@ -1,0 +1,103 @@
+1.Viết một chương trình để đảo ngược một chuỗi nhập từ bàn phím
+Ví dụ:
+Input: "Hello"
+Output: "olleH"
+2. Đếm ký tự trong chuỗi
+- Viết một chương trình đếm số lần xuất hiện của ký tự trong chuỗi
+- Ví dụ:
+    + Input: Chuỗi "hello" và ký tự 'l'
+    + Output: 2
+3. Kiểm tra Palindrome
+- Viết một chương trình kiểm tra xem một chuỗi có phải là palindrome (chuỗi đối xứng) không
+- Ví dụ
+    + Input: "madam"
+    + Output: true
+4. Tách từ trong chuỗi
+- Viết một chương trình tách các từ trong chuỗi dựa trên khoảng trắng và từ in từng từ trên một dòng
+- Ví dụ:
+    + Input: 'I love Java'
+    + Output: I
+              love
+              Java
+5. Đếm số từ trong chuỗi
+- Viết chương trình đếm số từ rong chuỗi dựa trên khoảng trắng
+6. Xoá khoảng trắng dư thừa
+- Viết một chương trình để xóa tất cả khoảng trắng thừa trong chuỗi
+- Ví dụ
+    + Input: "Java is fun"
+    + Output: "Java is fun"
+
+7. Tìm ký tự không lặp lại đầu tiên
+- Viết một chương trình để tìm ký tự đầu tiên trong chuỗi không bị lặp lại
+- Ví dụ:
+    + Input: "swiss"
+    + Output: "w"
+8. Chuyển đổi chữ hoa và chữ thường
+- Viết chương trình chuyển đổi tất cả chữ hoa thành chữ thường và ngược lại
+- Ví dụ:
+    + Input: "Hello worLD"
+    + Output: "hELLO WORld"
+9. Loại bỏ ký tự số trong chuỗi
+- Viết một chương trình loại bỏ tất cả các ký tự số trong chuỗi
+- Ví dụ:
+    + Input: "abc123xyz"
+    + Output: "abcxyz"
+10. Sắp xếp ký tự trong chuỗi
+- Viết chương trình sắp xếp các ký tự trong chuỗi theo thứ tự bảng chữ cái.
+- Ví dụ:
+    + Input: "bacd"
+    + Output: "abcd"
+11. Kiểm tra chuỗi con
+- Viết chương trình kiểm tra xem một chuỗi có phải con của một chuỗi khác hay không.
+- Ví dụ:
+    + Input: "hello world", chuỗi con "world"
+    + Output: true
+12. Đếm tần suất từ
+- Viết chương trình đếm số lần xuất hiện của mỗi từ trong chuỗi
+- Ví dụ:
+    + Input: "hello world hello"
+    + Output:
+        hello: 2
+        world: 1
+13. Tìm từ dài nhất
+- Viết chương trình tìm từ dài nhất trong chuỗi
+- Ví dụ:
+    + Input: "I love programming"
+    + Output: "programming"
+14. Mã hóa chuỗi bằng Caesar Cipher
+- Viết chương trình mã hóa một chuỗi bằng cách thay đổi các ký tự với một khoảng cách cố định (ví dụ: 3 ký tự).
+- Ví dụ:
+    + Input: "abc" shift = 3
+    + Output: "def"
+15. So sánh hai chuỗi không phân biệt hoa thường
+- Viết chương trình kiểm tra xem hai chuỗi  có giống nhau khi bỏ qua phân biệt hoa thường hay không
+- Ví dụ:
+    + Input: "Hello", "hEllo"
+    + Output: true
+16. Chuyển đổi số thành chuỗi và ngược lại
+- Viết chương trình để:
+    1. Chuyển đổi một số thành chuỗi
+    2. Chuyển đổi một chuỗi thành số
+- Ví dụ:
+    + Số 123 -> Chuỗi "123"
+    + Chuỗi "456" -> Số 456
+17. Xóa ký tự trùng lặp
+- Viết chương trình để xóa tất cả các ký tự bị trùng lặp trong chuỗi
+- Ví dụ:
+    + Input: "programming"
+    + Output: "progamin"
+18. Chuyển đổi CameLCase
+- Viết chương trình để chuyển đổi chuỗi thành định dạng CamelCase
+- Ví dụ:
+    + Input: "java is fun"
+    + Output: "JavaIsFun"
+19. Kiểm tra Anagram
+- Viết chương trình kiểm tra xem hai chuỗi có phải là anagram (chuỗi có cùng số lượng ký tự nhưng sắp xếp khác nhau) không.
+- Ví dụ:
+    + Input: "listen", "silent"
+    + Output: true
+20. Tìm ký tự xuất hiện nhiều nhất
+- Viết chương trình để tìm ký tự xuất hiện nhiều nhất trong một chuỗi
+- Ví dụ:
+    + Input: "programming"
+    + Output: 'g'
