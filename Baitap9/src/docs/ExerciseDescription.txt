@@ -1,0 +1,17 @@
+Xây dựng một hệ thống quản lý khách sạn với các chức năng chính sau:
+    1. Quản lý khách hàng (Customer)
+        - Thêm, sửa, xóa, tìm kiếm khách hàng.
+        - Mỗi khách hàng có các thông tin như: Họ tên, email, số điện thoại, ngày sinh, danh sách các phòng đã đặt
+    2. Quản lý phòng (Room):
+        - Thêm, sửa, xóa, tìm kiếm phòng
+        - Mỗi phòng có thông tin: Số phòng, loại phòng (standard, deluxe, suite), giá phòng, trạng thái (trống, đã đặt).
+    3. Quản lý đặt phòng (Booking):
+        - Khách hàng có thể đặt một hoặc nhiều phòng
+        - Thông tin đặt phòng bao gồm: Khách hàng, danh sách phòng, ngày đặt, ngày trả phòng, tổng chi phí.
+    4. Tính năng phân trang và sắp xếp (sử dụng Pageable và Page)
+        - Phân trang và sắp xếp danh sách khách hàng, phòng và đặt phòng
+    5. Xử lý ngoại lệ:
+        - Xử lý trường hợp không tìm thấy khách hàng/phòng/đặt phòng.
+        - Xử lý khi khách hàng đặt phòng nhưng phòng đặt hết chỗ.
+    6. Xác thực người dùng bằng JWT
+        - Tích hợp xác thực người dùng sử dụng JWT để bảo vệ các API
