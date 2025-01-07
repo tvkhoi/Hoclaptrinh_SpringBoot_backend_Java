@@ -1,0 +1,27 @@
+Bài Tập: Quản Lý Danh Sách Sách
+Mô tả:
+Xây dựng một ứng dụng API cho phép quản lý danh sách sách với các chức năng:
+
+1.Lấy danh sách tất cả sách.
+2.Thêm một cuốn sách mới.
+3.Lấy thông tin một cuốn sách theo id.
+4.Cập nhật thông tin một cuốn sách theo id.
+5.Xóa một cuốn sách theo id.
+Yêu cầu:
+Model: Book với các thuộc tính:
+    - id (số nguyên, duy nhất),khóa chính
+    - title (chuỗi)
+    - author (chuỗi)
+    - price (số thập phân)
+REST API Endpoints:
+    - GET /books - Lấy danh sách tất cả sách.
+    - GET /books/{id} - Lấy thông tin một cuốn sách theo id.
+    - POST /books - Thêm một cuốn sách mới.
+    - PUT /books/{id} - Cập nhật thông tin một cuốn sách theo id.
+    - DELETE /books/{id} - Xóa một cuốn sách theo id.
+
+
+Bài Tập Nâng Cao:
+    - Thêm xử lý exception khi không tìm thấy sách.
+    - Thêm phân trang và sắp xếp cho danh sách sách. (Sử dụng Pageable và page)
+    - Thêm xác thực với JWT hoặc OAuth2. (Chưa làm được đang tìm hiểu thêm)
