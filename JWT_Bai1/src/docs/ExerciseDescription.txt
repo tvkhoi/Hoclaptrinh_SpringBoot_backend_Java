@@ -1,0 +1,60 @@
+✅ Yêu cầu cụ thể:
+1. Tạo project Spring Boot (sử dụng Spring Initializr):
+Các dependencies cần:
+
+Spring Web
+
+Spring Security
+
+Spring Data JPA
+
+H2 hoặc MySQL
+
+Lombok
+
+jjwt hoặc spring-boot-starter-oauth2-resource-server (nếu dùng JWT lib chính thống)
+
+2. Tạo entity User:
+java
+@Entity
+public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String username;
+    private String password;
+    private String role; // e.g., USER, ADMIN
+}
+3. Tạo API:
+a. POST /auth/register
+Cho phép đăng ký tài khoản mới.
+
+Lưu mật khẩu mã hóa bằng BCrypt.
+
+b. POST /auth/login
+Nhận username và password.
+
+Xác thực thông tin.
+
+Nếu hợp lệ, trả về JWT token.
+
+c. GET /api/profile
+API bảo vệ bằng JWT.
+
+Chỉ truy cập được nếu gửi JWT trong header:
+Authorization: Bearer <token>
+
+4. Cấu hình bảo mật:
+Sử dụng JwtAuthenticationFilter để kiểm tra JWT trong mỗi request.
+
+Tạo JwtUtils để:
+
+Tạo token
+
+Giải mã token
+
+Kiểm tra hạn
+
+5. Test bằng Postman:
+Gửi request đăng ký → login → truy cập API /api/profile với token.
